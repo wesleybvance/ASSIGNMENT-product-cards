@@ -13,3 +13,8 @@
 .title {
   border: 1px solid lightblue;
 }
+
+.avail {
+  background-color: darkgray;
+  color: yellow;
+}
