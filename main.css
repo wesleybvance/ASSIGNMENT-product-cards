@@ -13,6 +13,9 @@ body {
   border: 1px solid lightblue;
   margin: 5px;
   backdrop-filter: blur(5px);
+  width: 200px;
+  text-align: center;
+  
 
 
   /* css from glassmorphism  */
@@ -51,10 +54,33 @@ body {
 }
 
 img {
-  width: 150px;
+  width: 200px;
 }
 
 h2 {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
+  color:cadetblue;
+}
+
+.desc {
+  height: 150px;
+  margin: 10px;
+}
+
+h4.spec {
+  font-size: 15px;
+}
+
+h4.price {
+  font-size: 15px;
+}
+
+p.specs {
+  font-size: 13px;
+  background-color: whitesmoke;
+}
+
+footer{
+  font-size: 8px;
 }
