@@ -8,10 +8,29 @@
 .product {
   border: 1px solid lightblue;
   margin: 5px;
+  backdrop-filter: blur(5px);
+  /* css from claymorphism generator */
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+  
+  /* css from neumorphism
+  -webkit-border-radius: 50px;
+  border-radius: 26px;
+  background: #D1D8EC;
+  -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff; */
 }
 
 .title {
   border: 1px solid lightblue;
+  /* css from glassmorphism */
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .avail {
@@ -21,4 +40,10 @@
 
 img {
   width: 150px;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
 }
