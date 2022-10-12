@@ -76,6 +76,7 @@ h2 {
   margin: 10px;
   font-size: 15px;
   align-items: center;
+  text-align: justify;
 }
 
 h4.spec {
@@ -92,6 +93,7 @@ p.specs {
   font-size: 13px;
   background-color: whitesmoke;
   text-align: left;
+  font-weight: bold;
 }
 
 footer{
