@@ -52,6 +52,7 @@ body {
 .avail {
   background-color: darkgray;
   color: yellow;
+  text-align: left;
 }
 
 img {
@@ -79,15 +80,18 @@ h2 {
 
 h4.spec {
   font-size: 15px;
+  margin: 15px 0px 15px 0px;
 }
 
 h4.price {
   font-size: 15px;
+  margin: 15px 0px 15px 0px;
 }
 
 p.specs {
   font-size: 13px;
   background-color: whitesmoke;
+  text-align: left;
 }
 
 footer{
